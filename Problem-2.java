@@ -1,8 +1,8 @@
-package selenium;
+package test;
 
 import java.util.Scanner;
 
-public class p1 {
+public class program2 {
 public static void main(String[] args) {
 	System.out.println("Enter the a value");
 	Scanner sc=new Scanner(System.in);
