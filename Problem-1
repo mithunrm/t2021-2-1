@@ -1,0 +1,29 @@
+package test1;
+
+import java.util.Scanner;
+
+public class problem4 {
+public static void main(String[] args) 
+{
+	System.out.println("Enter The a & b values");
+	Scanner sc=new Scanner(System.in);
+	double a=sc.nextDouble();
+	double b=sc.nextDouble();
+	System.out.println("Enter The Operatiom to be performed3330");
+	String operation=sc.next();
+	switch (operation) 
+	{
+	case "Addition":System.out.println("The sum of two numbers a & b is " +(a+b));
+		break;
+	case "Substraction":System.out.println("The substraction of two numbers a & b is " +(a+b));
+	break;
+	case "Multification":System.out.println("The product of two numbers a & b is " +(a+b));
+	break;
+	case "Division":System.out.println("The division of two numbers a & b is " +(a+b));
+	break;
+	default:System.out.println("Invalid Operation");
+		break;
+	}	
+}
+
+}
